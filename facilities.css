@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    text-align: right;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+.facility-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 50%;
+}
+
+.facility {
+    margin: 20px;
+    text-align: center;
+    top: 60%;
+    font-size: 22px;
+    color: blueviolet;
+}
+
+.facility img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    top: 40%;
+    width: 330px;
+    height: 240px;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.title h1{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.label {
+    margin-top: 240px;
+    font-weight: bold;
+}
+
+.logo img{
+    border-radius: 50%;
+    float: left;
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 3%;
+    left: 20%;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    margin-top: 10px;
+    min-height: 400px;
+    margin-right: 10px;
+    font-size: 20px;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: maroon;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: transparent;
+    color: green;
+}
+
+ul li.active a{
+    background-color: transparent;
+    color: blue;
+}
